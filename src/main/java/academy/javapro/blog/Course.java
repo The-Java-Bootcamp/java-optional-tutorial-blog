@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Course {
-    private String title;
-    private List<Student> students = new ArrayList<>();
+    private final String title;
+    private final List<Student> students = new ArrayList<>();
 
     public Course(String title) {
         this.title = title;

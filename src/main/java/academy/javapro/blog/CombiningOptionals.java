@@ -5,8 +5,8 @@ import java.util.List;
 import java.util.Optional;
 
 public class CombiningOptionals {
-    private static List<Student> students = new ArrayList<>();
-    private static List<Course> courses = new ArrayList<>();
+    private static final List<Student> students = new ArrayList<>();
+    private static final List<Course> courses = new ArrayList<>();
 
     public static Optional<Student> findStudent(String name) {
         return students.stream()
